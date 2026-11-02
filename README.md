@@ -1,24 +1,35 @@
-# OpenPDF
+<p align="center">
+  <img alt="OpenPDF icon" src="docs/assets/icon.png" width="96">
+</p>
 
-An immersive, warm-neutral PDF reading experience — a single-page React UI built from a
+<h1 align="center">OpenPDF</h1>
+
+<h3 align="center">The React reading interface for OpenPDF</h3>
+
+<p align="center">
+  <a href="https://github.com/orgista/openPDF">Quest app</a> ·
+  <a href="https://orgista.com/products/openpdf">orgista.com</a>
+</p>
+
+An immersive, warm-neutral PDF reading experience, a single-page React UI built from a
 [Figma Make](https://www.figma.com/make/wgXUPCIw9EwovYHntRmDW1/OpenPDF) design.
 
 The interface reimagines a document reader for focused, distraction-free reading:
 
 - **Continuous scroll** through pages with lazy loading and smooth appear animations
-- **Reading modes** — Normal (warm paper) and Dark, toggled from the toolbar
+- **Reading modes**, Normal (warm paper) and Dark, toggled from the toolbar
 - **Table of contents** side panel with active-section tracking
 - **Thumbnail rail + page dots** that surface on scroll and hover
 - **Cursor-anchored double-click zoom** and a Fit / Full view toggle
 - **Hold-and-drag page scrubbing** with a live page preview
 - **Figure lightbox** (double-click a figure to expand)
 - **Voice-search affordance** (visual stub)
-- A warm amber accent on a deep neutral canvas — deliberately no "AI blue"
+- A warm amber accent on a deep neutral canvas, deliberately no "AI blue"
 
 ## Cross-platform
 
-OpenPDF is built as **one web core, wrapped into native apps** for every target — iOS,
-Android, Google TV, Apple TV, and Meta Quest — using [Capacitor](https://capacitorjs.com).
+OpenPDF is built as **one web core, wrapped into native apps** for every target, iOS,
+Android, Google TV, Apple TV, and Meta Quest, using [Capacitor](https://capacitorjs.com).
 The Android build is a single artifact that ships to Google Play, installs on Google TV,
 and sideloads onto Meta Quest as a 2D app. (It's also an installable PWA for the browser.)
 
@@ -30,8 +41,8 @@ Page Up/Down, Space, Home/End).
 
 - [React 18](https://react.dev) + [Vite 6](https://vite.dev)
 - [Tailwind CSS v4](https://tailwindcss.com) (`@tailwindcss/vite`)
-- [Capacitor](https://capacitorjs.com) — native iOS / Android / Google TV / Quest shells
-- [vite-plugin-pwa](https://vite-pwa-org.netlify.app) — installable / offline web build
+- [Capacitor](https://capacitorjs.com), native iOS / Android / Google TV / Quest shells
+- [vite-plugin-pwa](https://vite-pwa-org.netlify.app), installable / offline web build
 - [lucide-react](https://lucide.dev) icons
 - Barlow / Barlow Condensed / DM Mono (Google Fonts, via `index.html`)
 
@@ -53,7 +64,7 @@ npm run preview      # preview the production build
 npm run build:single # single self-contained HTML -> dist-single/index.html
 ```
 
-`build:single` inlines all JS and CSS into one portable `index.html` — handy for hosting the
+`build:single` inlines all JS and CSS into one portable `index.html`, handy for hosting the
 UI as a standalone, embeddable preview.
 
 ## Project structure
