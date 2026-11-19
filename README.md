@@ -1,15 +1,21 @@
-<p align="center">
-  <img alt="OpenPDF icon" src="docs/assets/icon.png" width="96">
-</p>
+<div align="center">
 
-<h1 align="center">OpenPDF</h1>
+<img src="docs/assets/icon.png" alt="OpenPDF reader UI icon" width="96">
 
-<h3 align="center">The React reading interface for OpenPDF</h3>
+# OpenPDF reader UI
 
-<p align="center">
-  <a href="https://github.com/orgista/openPDF">Quest app</a> ·
-  <a href="https://orgista.com/products/openpdf">orgista.com</a>
-</p>
+**The React reading interface used by OpenPDF: continuous scroll, reading modes, contents and thumbnails.**
+
+[![CI](https://img.shields.io/github/actions/workflow/status/orgista/openpdf-app/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/orgista/openpdf-app/actions/workflows/ci.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/orgista/openpdf-app/badge)](https://scorecard.dev/viewer/?uri=github.com/orgista/openpdf-app)
+[![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square)](LICENSE)
+[![React](https://img.shields.io/badge/React-19-149eca?style=flat-square&logo=react&logoColor=white)](package.json)
+
+[OpenPDF for Quest](https://github.com/orgista/openPDF) · [Getting started](#getting-started) · [orgista.com](https://orgista.com/products/openpdf)
+
+</div>
+
+---
 
 An immersive, warm-neutral PDF reading experience, a single-page React UI built from a
 [Figma Make](https://www.figma.com/make/wgXUPCIw9EwovYHntRmDW1/OpenPDF) design.
@@ -88,10 +94,6 @@ for demonstration.
 
 ## Releases
 
-[![CI](https://github.com/orgista/openpdf-app/actions/workflows/ci.yml/badge.svg)](https://github.com/orgista/openpdf-app/actions/workflows/ci.yml)
-[![Latest release](https://img.shields.io/github/v/release/orgista/openpdf-app?include_prereleases&sort=semver)](https://github.com/orgista/openpdf-app/releases)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/orgista/openpdf-app/badge)](https://scorecard.dev/viewer/?uri=github.com/orgista/openpdf-app)
-
 Downloads live on the [Releases page](https://github.com/orgista/openpdf-app/releases): the built web bundle and app packages.
 Release packages are built on our build Mac and published there.
 
@@ -118,3 +120,6 @@ scripts/release-github X.Y.Z path/to/build-artifact
 The script tags `vX.Y.Z`, uses the CHANGELOG section as the notes, uploads the files with `SHA256SUMS`, and can be
 re-run safely. Full policy: [orgista release process](https://github.com/orgista/.github/blob/main/RELEASING.md).
 
+## License
+
+MIT, see [LICENSE](LICENSE).
