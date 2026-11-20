@@ -16,15 +16,15 @@
     "cap:open:android": "cap open android"
   },
   "dependencies": {
-    "@capacitor/android": "^8.4.1",
-    "@capacitor/core": "^8.4.1",
-    "@capacitor/ios": "^8.4.1",
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/ios": "^8.6.2",
     "lucide-react": "0.487.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@capacitor/cli": "^8.4.1",
+    "@capacitor/cli": "^8.6.2",
     "@tailwindcss/vite": "4.1.12",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
